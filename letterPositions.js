@@ -37,6 +37,6 @@ const phrase = "hello";
 const result1 = letterPositions(phrase);
 
 assertArraysEqual(result1["h"], [0]); // should pass
-assertArraysEqual(result1["e"], [1]); // should fail
-assertArraysEqual(result1["l"], [2, 3]); // should fail
-assertArraysEqual(result1["o"], [4]); // should fail
+assertArraysEqual(result1["e"], [1]); // should pass
+assertArraysEqual(result1["l"], [2, 3]); // should pass
+assertArraysEqual(result1["o"], [4]); // should pass
