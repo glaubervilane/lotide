@@ -53,3 +53,5 @@ const arr4 = [1, [], [3, 4], 5, []];
 const expected4 = [1, 3, 4, 5];
 const result4 = flatten(arr4);
 assertArraysEqual(result4, expected4);
+
+module.exports = flatten;

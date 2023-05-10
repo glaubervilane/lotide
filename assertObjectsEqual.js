@@ -47,3 +47,5 @@ assertObjectsEqual({a: 1, b: 2}, {b: 2, a: 1}); // should pass
 assertObjectsEqual({a: 1, b: 2}, {a: 1, b: 2, c: 3}); // should fail
 assertObjectsEqual({a: [1, 2, 3], b: {c: 4, d: 5}}, {a: [1, 2, 3], b: {c: 4, d: 5}}); // should fail
 assertObjectsEqual({a: [1, 2, 3], b: {c: 4, d: 5}}, {a: [1, 2, 3], b: {c: 4, d: 6}}); // should fail
+
+module.exports = assertObjectsEqual;

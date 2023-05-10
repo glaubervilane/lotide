@@ -45,3 +45,5 @@ assertEqual(results4, "b");
 
 const results5 = findKey(data2, x => x.num % 5 === 0);
 assertEqual(results5, undefined);
+
+module.exports = findKey;
