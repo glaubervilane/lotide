@@ -26,21 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function2(AssertEqual)`: Tests to make sure that a variable is equal to other given variable
-* `function1(assertArraysEqual)`: As assertEqual this function tests to make sure an array is equal to other given array
-* `function3(assertObjectsEqual)`: As assertEqual this function tests to make sure an object is equal to other given object
-* `function3(countLetters)`: This function just count letters into a string
-* `function3(countOnly)`: This function just count specific selected items into a string or array of strings
-* `function3(eqArrays)`: Is a test to check if 2 arrays are equal
-* `function3(eqObjects)`: Is a test to check if 2 objects are equal
-* `function3(findKey)`: Find keys from any object
-* `function3(findKeyBaValue)`: Find keys from any object using its valus as reference
-* `function3(flatten)`: Flatten arrays merging its elements
-* `function3(head)`: Get the first element in the beginnig of an array
-* `function3(tail)`: Get the last element in the end of an array
-* `function3(midle)`: Get the element(s) in the middle of an array
-* `function3(letterPosition)`: Check the position of selected letters into an string
-* `function3(map)`: Map of elements using a given instruction
-* `function3(head)`: Get the first element in the beginnig of an array
-* `function3(takeUntil)`: Map of elements until a given condition is accomplish
-* `function3(without)`: Map of elements without a given condition
+* `function2(AssertEqual)`: A function that takes in 2 values and returns true if they are equal and false otherwise.
+* `function1(assertArraysEqual)`: A function that prints an appropriate message after comparing the two arrays
+* `function3(assertObjectsEqual)`: A function that takes in 2 objects and returns true if they are equal and false otherwise
+* `function3(countLetters)`: A function that takes in a sentence and returns a count of each of the letters in the sentence
+* `function3(countOnly)`: A function that takes in a collection of items and returns a specific subset of those items
+* `function3(eqArrays)`: A function that takes in 2 arrays and returns true if the arrays are equal and false otherwise
+* `function3(eqObjects)`: A function that takes in 2 objects and return true if they are equal and false otherwise
+* `function3(findKey)`: A function that takes in an object and callback and returns the first key that meets the criteria specified in callback
+* `function3(findKeyByValue)`: A function that takes in an object and a value and returns the first key that corresponds to that value
+* `function3(flatten)`: A function that takes in an array that contains elements including nested array of elements and returns a flattened version of the array
+* `function3(head)`: a function that takes in an array and returns the first element in the array
+* `function3(tail)`: A function that takes in an array and returns everything except the first element of the array
+* `function3(midle)`: A function that takes in an array and returns middle most element of the array
+* `function3(letterPosition)`: A function that takes in a string and returns all indices of letter positions in the string
+* `function3(map)`: A function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array
+* `function3(takeUntil)`: A function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback
+* `function3(without)`: A function that takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array
