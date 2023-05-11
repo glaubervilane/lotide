@@ -1,8 +1,8 @@
 {
   "name": "@glaubermarques/lotide",
   "version": "1.0.0",
-  "description": "Lotide library",
-  "main": "assertArraysEqual.js",
+  "description": "Lotide library. This library was published for learning purposes",
+  "main": "index.js",
   "directories": {
     "test": "mocha"
   },
