@@ -1,6 +1,6 @@
 {
   "name": "@glaubermarques/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lotide library. This library was published for learning purposes",
   "main": "index.js",
   "directories": {
